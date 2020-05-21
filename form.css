@@ -1,0 +1,237 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(https://picsum.photos/2500/1500?image=1041);
+	background-size: cover;
+	font-family: sans-serif;
+  }
+  #footer{
+	 
+	margin-left:80%;
+	margin-top: 36%;
+  }
+  
+  .box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-spacing: 5px;
+
+	font-size: larger;
+	
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 0.625rem;
+	color:black;
+  } 
+  .box .inputBox input {
+	width: 100%;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #fff;
+	opacity:0.8;
+	letter-spacing: 0.062rem;
+	margin-bottom: 1.875rem;
+	border: none;
+	border-bottom: 0.065rem solid #fff;
+	outline: none;
+	background: transparent;
+  }
+
+
+.sectionwrap{
+
+	padding:50px;
+}
+
+  .box2 {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 35rem;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 0.625rem;
+	color:white;
+  }
+  .box .inputBox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #fff;
+	pointer-events: none;
+	transition: 0.5s;
+  }
+.box h2 {
+	margin: 0 0 1.875rem;
+	padding: 0px;
+	color: #fff;
+	text-align: center;
+	
+  }
+.box2 .inputBox {
+	left:20%;
+	position: relative;
+  }
+   .box2 .inputBox input:focus ~ label,
+  .box2 .inputBox input:valid ~ label,
+  .box2 .inputBox input:not([value=""]) ~ label {
+	top: -1.125rem;
+	left: 0;
+	color: #03a9f4;
+	font-size: 0.75rem;
+  }
+ .box2 .inputBox input {
+	width: 100%;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #fff;
+	letter-spacing: 0.062rem;
+	margin-bottom: 1.875rem;
+	border: none;
+	border-bottom: 0.065rem solid #fff;
+	outline: none;
+	background: transparent;
+  }
+  .box2 .inputBox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #fff;
+	pointer-events: none;
+	transition: 0.5s;
+  }
+.box2 input[type="submit"]:hover {
+	background-color: #1cb1f5;
+  }
+  .box2 input[type="submit"] {
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #03a9f4;
+	padding: 0.625rem 1.25rem;
+	cursor: pointer;
+	border-radius: 0.312rem;
+	font-size: 1rem;
+  }
+
+
+
+  .box2 .choice{
+	position: absolute;
+	top: 15%;
+	left: 170%;
+	transform: translate(-50%, -50%);
+	width: 25rem;
+	text-align: center;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 0.625rem;
+	color:white;
+  }
+    .box2 h2 {
+	margin: 0 0 1.875rem;
+	padding: 2px;
+	color: #fff;
+	text-align: center;
+	
+  }
+  
+    
+  
+ 
+ 
+  .box .inputBox {
+	position: relative;
+	color:white;
+  }
+ .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+	top: -1.125rem;
+	left: 0;
+	color: #03a9f4;
+	font-size: 0.75rem;
+  }
+    .box input[type="submit"] {
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #03a9f4;
+	padding: 0.625rem 1.25rem;
+	cursor: pointer;
+	border-radius: 0.312rem;
+	font-size: 1rem;
+  }
+  .box input[type="submit"]:hover {
+	background-color: #1cb1f5;
+  }
+
+
+
+
+
+
+
+  .final{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-spacing: 5px;
+	
+		font-size: larger;
+		
+		background: rgba(0, 0, 0, 0.6);
+		border-radius: 0.625rem;
+		color:white;
+
+  }
+  .final input {
+	width: 100%;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #fff;
+	letter-spacing: 0.062rem;
+	margin-bottom: 1.875rem;
+	border: none;
+	border-bottom: 0.065rem solid #fff;
+	outline: none;
+	background: transparent;
+  }
+  .final input[type="submit"] {
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #03a9f4;
+	padding: 0.625rem 1.25rem;
+	cursor: pointer;
+	border-radius: 0.312rem;
+	font-size: 1rem;
+  }
+  .final .inputBox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0.625rem 0;
+	font-size: 1rem;
+	color: #fff;
+	pointer-events: none;
+	transition: 0.5s;
+  }
+  
+.final h2 {
+	margin: 0 0 1.875rem;
+	padding: 0px;
+	color: #fff;
+	text-align: center;
+	
+  }
+.project{
+	color:black;
+}
