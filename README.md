@@ -1,5 +1,3 @@
-Thank you for opening the README.md file....!
-
 # Resume-Building
 This project offers users to create resume within 5 mins by just giving their details.
 
